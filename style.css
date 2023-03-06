@@ -1,0 +1,166 @@
+/*folha de estilização*/
+/* primeiro vou resetar tudo usando o * 
+VAMOS USAR UMA FONTO CHAMADA ROBOTO DO GOOGLE NOS PESOS QUE PRECISO 700 E 400*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+.container {
+    background-color: #f0f0f0;
+    padding: 24px 59px 63px; 
+    /* 59 nas laterais */
+}
+
+.main {
+    background-color: #ffffff;
+    border: 5px;
+
+    padding: 20px 26px 12px 27px;
+}
+
+.title {
+    color:#FF6A28;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+.description {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 14px;
+}
+
+.image-principal {
+    width: 100%;
+    height: auto;
+}
+
+.informatives {
+    display: flex;
+    gap:9px;
+    margin-top: 10px;
+
+}
+
+.box-informative {
+    width:118px;
+    height: 85px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.person {
+    width: 238px;
+  
+    flex-direction: row;
+  }
+
+.person-wrapper {
+    margin-left: 11px;
+    display: flex;
+    flex-direction: column;
+  }
+
+.informative-title {
+    color: #61656d;
+    font-size: 14px;
+  }
+
+.informative-emphasis {
+    font-size: 14px;
+    font-weight: 700;
+    color: #ff6a28;
+  
+    text-transform: uppercase;
+  }
+.ingredients {
+    /* caixa dos branca dosingredientes */
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-top: 37px;
+    padding: 15px 27px 30px ;
+}
+.ingredients-wrapper{
+    /* caixa do titulo dos ingredientes */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap:8px;
+
+}
+
+.ingredients-space{
+    margin-bottom: 16.8px;
+    /* distancia do texto INGREDIENTES PARA A LISTA DE BAIXO */
+}
+
+.list {
+    color:#61656d;
+    margin: 0 0 10px 27px;
+    
+}
+
+.preparation-mode {
+    /* caixa do modo de preparo */
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-top: 16px;
+    padding: 16px 27px 33px ;}
+    
+.preparation-mode-wrapper{
+    /* caixa do titulo do MODO DE PREPARO */
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+    gap:8px; 
+}
+    
+/* gap é o espaço entreo nome ingredientes para  apanelinha */
+
+.list-mode{
+    /* lista dos passos do modo de preparo */
+    color:#61656d;
+    margin: 0 0 27px 27px;
+
+}
+
+.preparation-mode-space {
+    /* distancia do texto mode de preparo PARA A LISTA DE BAIXO */
+    margin-bottom: 16px;
+}
+
+.aditional-information {
+    /* caixa dos branca das info adicionais */
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-top: 16px;
+    padding: 16px 22px 21px ;
+}
+.title-aditional-informations {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    color:#61656d;
+    background-color: #f0f0f0;
+    display:inline-block;
+    width:100%;
+    padding : 8px 0;
+    text-align:center;
+
+}
+.info-text{
+    /* texto de informações adicionais  */
+    color:#61656d;
+    margin: 0 0 0 0;
+
+}
+
+/* tag div, classe texto corrido */

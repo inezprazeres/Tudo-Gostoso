@@ -1,0 +1,144 @@
+<html>
+
+<head>
+    <!-- aqui vão os links de referencia , PRIMEIRO A FONTE QUE PRECISO, DEPOIS O LINK DO CSS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<!-- <style>
+    /* aqui é onde estilizamos as caixas div que separamos por classe */
+</style> mas vamos usar o css -->
+
+<body class="container">
+    <!-- aqui é o corpo do código -->
+    <!-- div são caixas organizadoras que nomeamos com classes, 
+        podem existir uma classe dentro da outra ,
+        as que englobam  as demais sao "pais" das que estao 
+        dentro e vao ter a estilização que foi definida na classe pai-> 
+        efeito colateral = side effect
+
+         -->
+    <div class="main">
+        <!-- h1 tem mais peso semantico -->
+        <h1 class="title">
+            Brownie super fácil
+        </h1>
+
+        <span class="description"> A receita perfeita para sua festa de familia</span>
+
+        <img src="./imagem-principal.png" class="image-principal" />
+        <!-- igual a div porem com um peso um pouco mais semantico temos section e articles
+        <section></section> 
+        <articles></articles>
+    -->
+      
+        <div class="informatives">
+
+            <div class="preparation box-informative">
+                <img src="./alarm.png" />
+                <span class="informative-title">Preparo</span>
+                <span class="informative-emphasis">40 min</span>
+            </div>
+
+            <div class="performance box-informative">
+               <img src="./room_service.png"/>
+                <span class="informative-emphasis">95.577</span>
+                <span class="informative-title"> Rendimento</span>
+                <span class="informative-emphasis"> 8 Porções</span>
+            </div>
+            
+            <div class="favorites box-informative">
+                <img src= "./favorite_border.png" />
+                <span class="informative-title">Favoritos</span>
+                <span class="informative-emphasis"> 95.577</span>
+            </div>
+            
+            <div class="comments box-informative">
+                <img src= "./chat_bubble_outline.png"/>            
+                <span class="informative-title">Comentários</span>
+                <span class="informative-emphasis">842</span>
+            </div>
+
+            <div class="person box-informative">
+                <img src="./Foto.png" />
+
+                <div class="person-wrapper">
+                    <span class="informative-emphasis">Ana Flávia</span>
+                    <span class="informative-title">membro desde 2002</span>
+                </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+    <div class="ingredients">
+        <!-- caixa branca dos ingredientes -->
+        <div class="ingredients-wrapper ingredients-space">
+            <!-- caixa do titulo Ingredientes -->
+        <img src="./avental.png" />
+        <span class="ingredient-title informative-emphasis"> Ingredientes</span>
+        </div>
+
+        <ul class="list">
+            <li>6 colheres (sopa) bem cheias, de margarina sem sal</li><br>
+            <li>3/4 xícara (chá) achocolatado</li><br>
+            <li>1/2 xícara (chá) chocolate em pó</li><br>
+            <li>1 e 1/4 xícara (chá) farinha de trigo</li><br>
+            <li>2 xícaras (chá) açúcar</li>  <br>
+            <li>4 ovos</li>  <br>
+            <li>2 pitadas de sal</li>  <br>
+            <li>1 colheres (chá) de extrato ou essência de baunilha</li>  <br>
+            <li>1 tablete de chocolate meio amargo picado em cubinhos</li>  <br>
+            <li>1/2 xícara (chá) de nozes picadas ou castanhas de caju granuladas</li><br>
+        </ul>
+    </div>
+
+    <div class="preparation-mode">
+        <div class="preparation-mode-wrapper preparation-mode-space">
+        <img src="./Panela.png"/>
+        <span class="preparation-mode-title informative-emphasis"> Modo de preparo</span>
+        </div>
+
+        <ol class="list-mode">
+            <!-- lista ordenada -->
+            <li> Misture os ovos e o açúcar</li><br>
+            <li>Em seguida, agregue todos os outros ingredientes até formar um creme uniforme.</li><br>
+            <li>Misture os ovos e o açúcar.</li><br>
+            <li> Em seguida, agregue todos os outros ingredientes até formar um creme uniforme</li><br>
+            <li>Em seguida, agregue todos os outros ingredientes até formar um creme uniforme.</li><br>
+            <li>O brownie estará pronto quando a parte de cima estiver levemente corada e, ao se espetar um palito, ele esteja
+                levemente úmido (devido ao chocolate derretido).</li><br>
+            <li>Corte em quadrados ainda quente e sirva com uma bola de sorvete de creme, ou congele num saquinho para freezer.</li><br>
+            <li>Para descongelar, coloque o brownie num prato de sobremesa e aqueça no micro-ondas, potência alta, por 1 minuto.</li>            
+            </ol>
+
+       
+    </div>
+
+    <div class="aditional-information"> 
+        <div class="ingredients-wrapper">
+            <span class="title-aditional-informations">Informações adicionais</span>
+        </div>
+
+        <span class="info-text">O tradicional brownie de chocolate é uma preferência nacional, mas existem variações desse doce para agradar a todo mundo, desde o brownie de nescau até o brownie fit que leva cacau, o brownie low carb e o brownie vegano. Outra coisa que pode variar é a forma de fazer: geralmente é no forno, mas quer um brownie fácil que fica pronto em minutos? O brownie de caneca no microondas vai resolver a sua vida.
+        <br>Confira a seguir algumas dicas para que seu brownie fique perfeito:
+        <br>
+        1) As pitadas de sal servem para realçar o sabor do chocolate: não deixe de usá-las!<br>
+        2) Misture a farinha delicadamente para que a massa não fique pesada.<br>
+        3) Usar forma de metal faz com que o brownie fique pronto mais rapidamente: se utilizá-la, fique de olho no tempo de forno.<br>
+        Procurando mais receitas doces incríveis? Experimente as nossas receitas de brigadeirão, bolo de fubá cremoso, pavê de chocolate simples, bolo de cenoura, pudim de leite condensado, brigadeiro, cookie americano perfeito e a melhor receita de bolo de chocolate!<br>
+        Se você adora receitas doces, confira nossas listas com pratos deliciosos:<br>
+        Receitas com leite de coco: confira opções doces e salgadas<br>
+        20 receitas com leite em pó: deliciosas e práticas</span>
+    </div>
+
+    
+</body>
+
+</html>
+<!-- semantico: visualmente bonito, tem que funcionar, e tem que ser encontravel  -->
